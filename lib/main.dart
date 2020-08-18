@@ -109,8 +109,8 @@ class _SignInScreenState extends State<SignInScreen> {
 
 FirebaseAuth _auth = FirebaseAuth.instance;
 final TwitterLogin twitterLogin = new TwitterLogin(
-  consumerKey: 'VLHZDyBzZN4jCtWivu0gsrF5v',
-  consumerSecret: 'giMJBSteIpjBr6SpD0O4KxLm3OXZX7EEjmNFt4xavaRBxrHXem',
+  consumerKey: '',
+  consumerSecret: '',
 );
 
 void _logout() async {
